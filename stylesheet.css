@@ -1,0 +1,56 @@
+div{
+	border: 1px solid black;
+}
+
+.nav .container li{
+	display: inline-block;
+	}
+
+.container .left {
+	float: left;
+}
+
+.container .right {
+	float: right;
+}
+
+.nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Helvetica;
+	padding: 14px 12px;
+}
+
+.jumbotron{
+	height: 500px;
+	background-image: url('http://1.bp.blogspot.com/-S4oBDVODNnw/TmaGxfv2QcI/AAAAAAAABY8/3B05Q7CcvKA/s1600/City+Wallpaper+1080p+%252831%2529.jpg');
+}
+
+.jumbotron h1{
+	font-size: 50px;
+	font-family:Helvetica;
+	color: #ecf0f1;
+	padding-top: 100px;
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.jumbotron p{
+	font-size: 20px;
+	font-family: Helvetica;
+	color: #1E3E54;
+}
+
+.menu{
+	display: inline;
+}
+
+.menu li{
+	display: inline;
+	font-family: Helvetica;
+	font-size: 25 px;
+	text-transform: uppercase;
+	text-align: center;
+}
