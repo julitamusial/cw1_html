@@ -1,6 +1,11 @@
 body div{
 	border: 1px solid black;
+
 } 
+
+body{
+background-color: #ecf0f1;
+}
 
 .social-buttons {
 	height: 40px;
@@ -9,21 +14,24 @@ body div{
 
 .social-buttons div{
 	display: inline;
+	
 	}
 
 #left div{
 	position: relative;
 	float: left;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	height: 40px;
+	border: 1px solid red;
 }
 
 #right div {
 	position: relative;
 	float: right;
 	height: 40px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	height: 40px;
+	border: 1px solid red;
 }
 
 .social-buttons a {
@@ -34,10 +42,36 @@ body div{
 	padding: 14px 12px;
 }
 
-.hero{
-	height: 500px;
-	background-color: #245269;
+.menu {
+	height: 35px;
+	margin: auto; 
+	margin-bottom: 0px;
 	margin-top: 10px;
+	background-color: #011345;
+}
+
+.menu-container div{
+	display: inline-block;
+	font-family: Helvetica;
+	font-size: 15px;
+	/*	text-transform: uppercase;*/
+	text-align: center;
+	/*border: 1px solid black;*/
+	width: 100px;
+	height: 35px;
+	margin-right: -5px;
+}
+
+.menu-container a{
+	text-decoration: none;
+	color: #ffffff;
+	text-decoration: bold;
+}
+
+.hero{
+	height: 600px;
+	background-image: url("img/bridge-backgrounds-112.jpg");
+	margin-top: 5px;
 	margin-bottom: 15px;
 }
 
@@ -57,31 +91,19 @@ body div{
 	color: #1E3E54;
 }
 
-.menu {
-	width: 945px;
-	height: 52px;
-	margin: auto; 
-	margin-bottom: 10px;
-
-}
-
-.menu-container div{
-	display: inline-block;
-	font-family: Helvetica;
-	font-size: 18px;
-	text-transform: uppercase;
-	text-align: center;
-	border: 1px solid black;
-	width: 19.9%;
+.hero-content div{
+	border: 1px solid red;
+	width: 200px;
 	height: 50px;
-	background-color: blue;
-	margin-right: -5px;
+	text-align: center;
+	margin-top: 75px;
+	margin-left: 250px;
 }
-
 
 .page {
 	width: 945px;
 	margin: auto;
+	background-color: #ffffff;
 }
 
 .page .pg-header {
@@ -90,7 +112,8 @@ body div{
 	
 }
 
-.page .pg-content{
+.page .pg-content div{
+	width: 45%;
 	padding: 10px 10px 10px 10px;
 	margin: auto;
 	background-color: red;
@@ -101,7 +124,7 @@ body div{
 }
 
 .ft-content{
-	background-color: #00B0FF;					/*jak ustawić żeby był widoczny kolor tła?! */
+	background-color: #546173;					/*jak ustawić żeby był widoczny kolor tła?! */
 	padding: 10px 10px 100px 10px;
 }
 
