@@ -4,7 +4,7 @@ body div{
 
 
 body{
-background-color: #ecf0f1;
+	background-color: #ecf0f1;
 }
 
 .menu {
@@ -12,6 +12,7 @@ background-color: #ecf0f1;
 	margin: auto; 
 	background-color: #011345;
 	padding-bottom: 10px;
+	
 }
 
 .menu-container #left div{
@@ -29,9 +30,13 @@ background-color: #ecf0f1;
 	height: 32px;
 	height: 32px;
 	padding: 5px 0px 0px 0px;
-	
 }
 
+.social-buttons a:hover {
+	opacity: 0.6;
+
+	
+}
 .menu-container a{
 	text-decoration: none;
 	color: #BCB9CD;
@@ -63,7 +68,7 @@ background-color: #ecf0f1;
 
 .hero-content h1{
 	font-size: 50px;
-	font-family:Helvetica;
+	font-family: Helvetica;
 	color: #ecf0f1;
 	padding-top: 100px;
 	text-transform: uppercase;
@@ -72,7 +77,6 @@ background-color: #ecf0f1;
 
 .hero-content p{
 	font-size: 20px;
-	/*font-family: Helvetica;*/
 	font-family: 'Josefin Sans', sans-serif;
 	color: #bdc3c7;
 }
@@ -88,35 +92,27 @@ background-color: #ecf0f1;
 	margin-top: 225px;
 	margin-left: 70px;
 	padding-top: 5px;
-	/* border-bottom-right-radius: 5%;
-	border-bottom-left-radius: 5%; */
-}
-.hero-content div a {
-	color: black;
-	text-decoration:none;
-	font-size: 18px;
-	/*font-family:Helvetica;*/
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: bold;
-	
 }
 
 .page {
 	width: 945px;
 	margin: auto;
-font-family: 'Alegreya Sans SC';
+	background-color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
+
 
 .page .pg-header {
 	padding: 10px 10px 10px 10px;
 	margin: auto;
+	font-size: 17px;
 	
 }
 
 .page .pg-content .row{
 	padding: 10px;
-	background-color: white;
 	text-align: center;
+	font-size: 16px;
 }
 
 .page .pg-content .row div{
@@ -134,6 +130,8 @@ font-family: 'Alegreya Sans SC';
 	border-bottom: 1px dotted #999008;
 }
 
+
+
 #read-more {
 	height: 50px;
 	width: 120px;
@@ -145,11 +143,12 @@ font-family: 'Alegreya Sans SC';
 #read-more a {
 	text-decoration: none;
 	color: #2c3e50;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #read-more a:hover{
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 18px;
 }
 
 .pg-content .row .image  div{
@@ -172,8 +171,8 @@ font-family: 'Alegreya Sans SC';
 
 .break h2{
 	text-align: center;
-	font-size: 20px;
-	font-family: Helvetica;
+	font-size: 22px;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 	padding-top: 25px;
 }
@@ -181,7 +180,6 @@ font-family: 'Alegreya Sans SC';
 .g-container{
 	padding: 20px 0px 10px 0px;
 	margin-left: 150px;
-
 }
 
 .g-container .row div{
@@ -199,19 +197,19 @@ font-family: 'Alegreya Sans SC';
 }
 
 .ft-content{
-	background-color: #2c3e50;					/*jak ustawić żeby był widoczny kolor tła?! */
+	background-color: #2c3e50;					
 	padding: 10px 40px 100px 38px;
 	color: #BCB9CD;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .footer .terms-privacy {
 	position: relative;
 	float: left;
-	width: 300px;
+	width: 150px;
 	margin-left: 310px;
 	padding-left: 20px;
-	font-family:Helvetica;
-	}
+}
 
 .footer .contact {
 	position: relative;
@@ -219,8 +217,7 @@ font-family: 'Alegreya Sans SC';
 	text-align: right;
 	margin-right: 310px;
 	padding-right: 10px;
-	width: 150px;
-	font-family:Helvetica;
+	width: 120px;
 }
 
 .footer .contact li{
@@ -242,8 +239,3 @@ font-family: 'Alegreya Sans SC';
 	text-decoration: none;
 	color: #ffffff;
 }
-
-
-/*div.img a:hover img {
-    border:1px solid #0000ff;
-}*/
